@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void swap(int *xp, int *yp) {
     int temp = *xp;
     *xp = *yp;
@@ -20,3 +22,8 @@ int BubbleSort(int arr[], int n) {
 }
 //619 will do that
 //I'll do that
+
+void main() {
+	int a[] = {2, 0};
+	BubbleSort(a, 2);	
+}
